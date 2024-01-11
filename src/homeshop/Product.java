@@ -1,3 +1,6 @@
+package homeshop;
+import homeshop.Bill;
+
 
 /**
  *
