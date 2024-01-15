@@ -1,13 +1,45 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package homeshop;
 
 /**
  *
- * @author tirde
+ * @author tirdea ana maria
  */
-public class Television {
+public class Television extends Product {
+   
+    private int size ; 
+    private String slabType ; 
+
+    public Television(String name, String description, double price,int size , String slabType) {
+        super(name, description, price);
+        this.size = size ; 
+        this.slabType= slabType ; 
+    
+    
+        
+        }
+        
+    
+       public int getSize(){
+           return size ; 
+          
+    
+    }
+       
+       public String getSlabType(){
+           return slabType ; 
+       }
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
 }
