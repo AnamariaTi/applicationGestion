@@ -1,6 +1,4 @@
- package homeshop;
-
- 
+package homeshop;
 
 /**
  *
@@ -14,12 +12,11 @@ class Customer {
          this.fullname = fullname ; 
          this.address = address ; 
      }
-    
-    
-     public String getFullname(){
-         return fullname ; 
-         
-     }
+
+    public String getFullname() {
+        return fullname;
+    }
+   
     
      
      public String getAddress(){
