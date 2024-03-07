@@ -58,6 +58,20 @@ public class Car extends Vehicule {
        System.out.println("J'ouvre mon coffre ");
    }
 
+   
+      @Override 
+      public void start(){
+          System.out.println("je suis "+ modelName + "je consomme "+ literPer100km + "l au 100km et je rrr! ");
+          
+      }
+   
+   
+      
+      @Override 
+      public void stop(){
+          System.out.println("je suis "+ modelName + "J'arrête mon moteur "+ motor );
+      }
+   
 }
 
 

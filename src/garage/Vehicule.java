@@ -9,7 +9,7 @@ package garage;
 public class Vehicule {
       
     
-    private String modelName ; 
+   String modelName ; 
     private String description ; 
     private String manufacturer ; 
     private int year ; 

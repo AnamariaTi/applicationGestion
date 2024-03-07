@@ -15,6 +15,11 @@ public class Bill {
    private  Customer customer ; 
    private Map<Product, Integer> products ;
    
+   
+   public Bill(Customer customer){
+       this.customer = customer ; 
+   }
+    
    /***
     * Add a product whit a quantity in the bill 
     * @param product product to add 

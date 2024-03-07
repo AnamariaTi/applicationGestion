@@ -4,6 +4,7 @@ import homeshop.Fridge;
 import homeshop.Television;
 import miam.Aliment;
 import miam.Four;
+import homeshop.Customer; 
 
 //import homeshop.Customer; 
 
@@ -41,14 +42,13 @@ public class Main {
         Product cafe = new Product("Philips HD7886/61","Philip Senseo Quadrante, Noir -1 OU 2 tasses",79.99);
         Television tv = new Television("tv samsung ue49MU6292", "SMART TV LED INCUVREE 49",599,49,"Led"); 
         Fridge fridge = new Fridge ("BEKO TSE 1042 F ","Refigérateur BEKO 130L-Classe A+ - blanc ",189,130,false);
-    /**    Customer customer = new Customer ("Juste Leblanc ","19 rue Germain Pilon, Paris"); 
+        Customer customer = new Customer ("Juste Leblanc ","19 rue Germain Pilon, Paris"); 
         
         Bill bill = new Bill(customer);  
-        bill.addProduct(cafe ,1); 
+       /* bill.addProduct(cafe ,1);*/ 
         bill.addProduct(tv, 1);
         bill.addProduct(fridge, 1);
-        */
-                
+             
                 
                 
                 

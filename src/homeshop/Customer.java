@@ -1,10 +1,9 @@
 package homeshop;
 
-/**
- *
+/** attention sur public class ou non !!
  * @author tirdea ana maria 
  */
-class Customer {
+ public class Customer {
      private String fullname ; 
      private String address ; 
      
